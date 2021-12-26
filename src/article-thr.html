@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Як орендувати паркомісце?</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    @include('partials/header.html')
+
+    <div class="main">
+      <section class="article">
+        <div class="container">
+          <div class="article__inner">
+            <h1 class="article__title">
+              Як орендувати паркомісце?
+            </h1>
+            <div class="article__text">
+              <span>
+                Для початку зареєструйтеся у чат-боті OkParking у кілька простих кроків: 
+              </span>
+              <video class='article__media all-cont' src="video-one.mp4" preload='auto' controls></video>
+              <span>
+                У головному меню чат-бота ви знайдете необхідну послугу здачі паркомісця в оренду (для цього натисніть
+                кнопку «Здати»). Для реєстрації паркомісця достатньо пройти чотири простих кроки:
+              </span>
+              <br><br>
+              1. Відкрийте телеграм-бот та натисніть “start”
+              <br><br>
+              2. Далі введіть ваші дані: ім’я та номер телефону (або ж наш чат-бот самостійно підтягне ваш контакт з
+              телеграму)
+              <br><br>
+              <span>
+                Вітаємо! Ви стали користувачем OkParkingBot! Перед початком користування, будь ласка, ознайомтеся з
+                важливою інформацією: Угодою користувача та Політикою конфіденційності.
+              </span>
+            </div>
+
+            <h5 class="article__page-title">Що далі?</h5>
+
+            <div class="article__text">
+              <span>
+                У головному меню чат-бота ви знайдете необхідну послугу оренди паркомісця (для цього натисніть кнопку
+                «Орендувати»). Додайте інформацію про ваше авто – марку, модель та державний номер. Надалі вся ця
+                інформація зберігається у налаштуваннях чат-бота.
+              </span>
+              <br><br>
+              <span>
+                І далі чат-бот OkParking допоможе:
+              </span>
+              <br><br>
+              - обрати зручну для вас парковку;
+
+              <br><br>
+              - забронювати за вами конкретну дату та період;
+              <br><br>
+              - оплатити паркування.
+              <br><br>
+              <span>
+                Щойно ви забронюєте паркінг та виконаєте оплату, чат-бот надішле вам детальну покрокову інструкцію з
+                подальшою необхідною інформацією:
+              </span>
+              - як знайти паркінг,
+              <br><br>
+              - як заїхати,
+              <br><br>
+              - де знаходиться саме ваше паркомісце та інше.
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    @include('partials/footer.html')
+  </div>
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
